@@ -1,0 +1,178 @@
+@media screen and (max-width:996px) {
+    .navbar .max-width .navmenu li a {
+        font-size: 17px;
+    }
+    .navbar .max-width .logo a {
+        font-size: 42px;
+    }
+    header.navbar.sticky .max-width .logo a span {
+        font-size: 40px;
+    }
+    .banner .max-width .banner-content .text1 {
+        font-size: 36px;
+    }
+    .banner .max-width .banner-content .text2 {
+        font-size: 60px;
+    }
+    .banner .max-width .banner-content .text3 {
+        font-size: 42px;
+    }
+    .banner .max-width .banner-content a {
+        font-size: 28px;
+    }
+    .Skills .max-width .skill-content .column.left {
+        width: 450px;
+    }
+    .Skills .max-width .skill-content .column.right {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    header.navbar .max-width .navbtn {
+        display: inline-block;
+        filter: invert(1);
+    }
+    .navbar .max-width .navmenu.active {
+        position: fixed;
+        top: 0%;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        background: #222;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+    }
+    .navbar .max-width .navmenu.active.on {
+        top: 0%;
+        left: 0%;
+    }
+    .navbar .navmenu .off {
+        top: 0%;
+        left: -100%;
+    }
+    .navbar .max-width .navmenu.active li a {
+        display: inline-block;
+        font-size: 28px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 50px;
+    }
+    .navbar .max-width .navmenu.active li a:hover{
+        color: var(--theme-color) !important;
+    }
+    .navbar .max-width .navmenu {
+        display: none;
+    }
+    .banner {
+        background: url(media/BG.jpg) black no-repeat right;
+        background-size: cover;
+    }
+    header.navbar.sticky .max-width .logo a span {
+        font-size: 32px;
+    }
+    header.navbar.sticky .max-width .logo a:hover span {
+        font-size: 32px;
+    }
+    .Skills .max-width .skill-content .column.left {
+        width: 400px;
+    }
+    .Skills .max-width .skill-content .column.right {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navbar .max-width .navmenu li a {
+        font-size: 16px;
+    }
+    .navbar .max-width .logo a {
+        font-size: 42px;
+    }
+    header.navbar.sticky .max-width .logo a span {
+        font-size: 45px;
+    }
+    .banner {
+        background: url(media/BG.jpg) black no-repeat center;
+        background-size: cover;
+    }
+    .banner .max-width .banner-content .text1 {
+        font-size: 32px;
+    }
+    .banner .max-width .banner-content .text2 {
+        font-size: 48px;
+    }
+    .banner .max-width .banner-content .text3 {
+        font-size: 36px;
+    }
+    .banner .max-width .banner-content a {
+        font-size: 24px;
+    }
+    /* About section styling */
+    .About .max-width .about-content .column.right .text {
+        width: 100%;
+        padding: 20px;
+    }
+    .About .max-width .about-content .column.left .imgbx img {
+        width: 100%;
+        height: 300px;
+    }
+    .About .max-width .about-content .column.right .text p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navbar .max-width .navmenu li a {
+        font-size: 15px;
+    }
+    .navbar .max-width .logo a {
+        font-size: 32px;
+    }
+    header.navbar.sticky .max-width .logo a span {
+        font-size: 33px;
+    }
+    .banner {
+        padding: 8px;
+        background: url(media/BG.jpg) black no-repeat center;
+        background-size: cover;
+    }
+    .banner .max-width .banner-content {
+        position: relative;
+        padding: 15px 15px 15px 25px;
+    }
+    .banner .max-width .banner-content .text1 {
+        font-size: 24px;
+    }
+    .banner .max-width .banner-content .text2 {
+        font-size: 36px;
+    }
+    .banner .max-width .banner-content .text3 {
+        font-size: 28px;
+    }
+    .banner .max-width .banner-content a {
+        font-size: 18px;
+    }
+    .Skills .max-width .skill-content .column.left {
+        width: 375px;
+    }
+    .Skills .max-width .skill-content .column.right {
+        width: 375px;
+    }
+}
+@media screen and (max-width:400px) {
+    .Skills .max-width .skill-content .column.left {
+        width: 340px;
+    }
+    .Skills .max-width .skill-content .column.right {
+        width: 340px;
+    }
+    .Contact .max-width .title::after {
+        font-size: 16px;
+        bottom: -25px;
+        transform: translateX(70px);
+    }
+}
